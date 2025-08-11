@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <!-- Swipper Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Nav Section-->
+    <nav>
+        <div class="nav_top">
+            <div class="nav_top_left nav_top_content">
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">English <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>Francai</span>
+                            </li>
+                            <li>
+                                <span>Spanish</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">USD <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>USD</span>
+                            </li>
+                            <li>
+                                <span>EUR</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Free Shipping On All Orders Oveer $100</p>
+            </div>
+            <ul class="nav_top_right nav_top_content">
+                <li>
+                    <i class="fa-solid fa-bolt"></i>
+                    <a href="#">Flash Sale</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_middel">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Mega<span>Mart</span></h2>
+                </a>
+            </div>
+
+            <div class="nav_middel_input_box">
+                <select>
+                    <option>All Categories</option>
+                    <option>Camera</option>
+                    <option>Accesories</option>
+                    <option>Camera & Lenses</option>
+                    <option>Drones</option>
+                    <option>Security Cameras</option>
+                    <option>Games</option>
+                </select>
+                <input type="text" placeholder="Search For Products">
+                <button class="btn">
+                    <a href="#">Search</a>
+                </button>
+            </div>
+            <div class="nav_middel_right">
+                <div class="nav_middel_right_content">
+                    <div class="nav_middel_right_icon">
+                        <i class="ri-customer-service-line"></i>
+                    </div>
+                    <div class="nav_middel_right_info">
+                        <span>Need Help?</span>
+                        <span>+09 9987 7934</span>
+                    </div>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./myaccount.html" class="nav_middel_right_icon">
+                        <i class="ri-user-3-line"></i>
+
+                        <div class="nav_middel_right_info">
+                            <span>Account</span>
+                            <span>Login</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./carts.html" class="nav_middel_right_icon">
+                        <i class="ri-shopping-cart-2-line"></i>
+                        <div class="nav_middel_right_info">
+                            <span>My</span>
+                            <span>Cart</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <i class="ri-menu-line" id="open_menu"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bottom">
+            <div class="nav_bottom_left">
+                <div class="categorys">
+                    <div class="categorys_text">
+                        <i class="ri-menu-line"></i>
+                        <span>Shop Categories</span>
+                    </div>
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <ul class="categorys_item_menu">
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>SmartPhone</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Laptop</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>Camera</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>HeadPhones</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>PCGaming</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tablet"></i>
+                            <span>Tablets</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tv"></i>
+                            <span>Television</span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <ul class="nav_bottom_menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./products.html">Laptop</a>
+                </li>
+                <li>
+                    <a href="./products.html">SmartPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">HeadPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">Camera</a>
+                </li>
+            </ul>
+            <a href="./wishlist.html">
+                <div class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="today_deals">
+                        <span>Today's Deal</span>
+                        <span>hot</span>
+                    </div>
+                </div>
+            </a>
+            <i class="ri-close-large-fill" id="close_menu"></i>
+        </div>
+    </nav>
+
+    <div class="page-section">
+        <h2>
+            <a href="index.html">Home /</a>
+
+            <p id="product_name_title">Shopping Cart</p>
+        </h2>
+    </div>
+
+    <section class="shop-cart-container">
+        <div class="sc-top">
+            <h2>Shopping Cart</h2>
+        </div>
+
+        <div class="cart-wrapper">
+            <div class="cart-main">
+                <table style="border-color: transparent;">
+                    <thead>
+                        <tr>
+                            <th class="product-name">Products</th>
+                            <th class="product-price">Price</th>
+                            <th class="product-quantity">Quantity</th>
+                            <th class="product-subtotal">Subtotal</th>
+                            <th class="product-remove">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cartItem">
+
+                    </tbody>
+                </table>
+                <div class="cart-option-btn">
+                    <button id="emptyCart">Empty Cart</button>
+                </div>
+            </div>
+
+            <div class="cart-total">
+                <div class="ct--top">
+                    <h2>Cart totals</h2>
+                </div>
+                <div class="ct-col border-remove">
+                    <h3>Subtotal</h3>
+                </div>
+                <div class="ct-col">
+                    <h3>Total</h3>
+                    <h3 id="cartTotal">$0</h3>
+                </div>
+                <a href="#" style="width: 100%;">
+                    <button id="btn-checkout">Proceed to checkout</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="footer-link">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Mega<span>Mart</span></h2>
+                </a>
+            </div>
+
+            <p>Find a location nearest you.</p>
+            <p>See <a href="#">Our Stores</a></p>
+            <p>SuportEmail@gmail.com</p>
+            <p><b>+4040404040404</b></p>
+            <div class="social">
+                <i class="ri-instragam-line"></i>
+                <i class="ri-facebook-line"></i>
+                <i class="ri-pinterest-line"></i>
+                <i class="ri-twitter-x-line"></i>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <h3>About Us</h3>
+
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">News & Blog</a></p>
+            <p><a href="#">Brands</a></p>
+            <p><a href="#">Press Center</a></p>
+            <p><a href="#">Advertising</a></p>
+            <p><a href="#">Investors</a></p>
+        </div>
+
+        <div class="footer-link">
+            <h3>Support</h3>
+
+            <p><a href="#">Suport Center</a></p>
+            <p><a href="#">Manage</a></p>
+            <p><a href="#">Service</a></p>
+            <p><a href="#">Hawl Away</a></p>
+            <p><a href="#">Security Center</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+
+        <div class="footer-link">
+            <h3>Order</h3>
+
+            <p><a href="#">Check Order</a></p>
+            <p><a href="#">Delivery & Pickup</a></p>
+            <p><a href="#">Returns</a></p>
+            <p><a href="#">Exchanges</a></p>
+            <p><a href="#">Developers</a></p>
+            <p><a href="#">Gift Cards</a></p>
+        </div>
+    </div>
+
+    <p class="copyright">&copy; MegaMart. All Rights Reserved.</p>
+    </footer>
+
+    <!-- swiper slide cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <!-- Products Data-->
+    <script src="./Data.js"></script>
+    <!-- js script-->
+    <script src="script.js"></script>
+
+    <script>
+        function getQueryParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+        }
+
+        let cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
+        const container = document.getElementById('cartItem');
+
+        function createCart(){
+            cartProducts.forEach(item => {
+                const id = item.ProductId;
+                const Category = item.ProductCategory;
+
+                // find the product based on category
+                const ProductCategory = Products.find(p => p.category == Category)
+                
+                const Product = ProductCategory.Products.find( p => p.ProductId == id);
+            
+                if(Product){
+                    // create the tabel row <tr>
+
+                        const row = document.createElement('tr');
+                        const td1 = document.createElement('td');
+                        const divCartProduct = document.createElement('div');
+                        divCartProduct.classList.add('cart-product');
+
+                        const divCartImg = document.createElement('div');
+                        divCartImg.classList.add('cart-img');
+                        const img = document.createElement('img');
+                        img.src = Product.Image;
+                        img.alt = Product.Name
+                        divCartImg.appendChild(img);
+
+                        const divCartInfo = document.createElement('div');
+                        divCartInfo.classList.add('cart-info');
+                        const h2 = document.createElement('h2');
+                        h2.textContent = Product.Name;
+                        divCartInfo.appendChild(h2);
+
+                        divCartProduct.appendChild(divCartImg);
+                        divCartProduct.appendChild(divCartInfo);
+                        td1.appendChild(divCartProduct);
+
+                        const td2 = document.createElement('td');
+                        td2.classList.add('price');
+                        td2.textContent = `${Product.Price}`
+
+                        const td3 = document.createElement('td');
+                        const quantityBox = document.createElement('div');
+                        quantityBox.classList.add('quantity-box');
+                        const spanMinus = document.createElement('span');
+                        spanMinus.classList.add('minus');
+                        spanMinus.textContent = '-';
+
+                        const quality = document.createElement('p');
+                        quality.classList.add('value');
+                        quality.textContent = '1';
+
+                        const spanPlus = document.createElement('span');
+                        spanPlus.classList.add('add');
+                        spanPlus.textContent = "+";
+
+                        quantityBox.appendChild(spanMinus);
+                        quantityBox.appendChild(quality);
+                        quantityBox.appendChild(spanPlus);
+                        td3.appendChild(quantityBox);
+
+                        const td4 = document.createElement('td');
+                        td4.classList.add('subtotal');
+                        td4.textContent = '$0';
+
+                        const td5 = document.createElement('td');
+                        const removeIcon = document.createElement('i');
+                        removeIcon.classList.add('ri-close-large-fill');
+
+                        removeIcon.addEventListener('click', function(){
+                            removeCartFromCard(this);
+                            location.reload();
+                        });
+
+                        td5.appendChild(removeIcon);
+
+                        row.appendChild(td1);
+                        row.appendChild(td2);
+                        row.appendChild(td3);
+                        row.appendChild(td4);
+                        row.appendChild(td5);
+
+                        container.appendChild(row);
+                    }
+                    else{
+                        console.log('product not found for id', id);
+                    }
+            });
+        }
+    
+        function removeCartFromCard(index){
+            cartProducts.splice(index, 1);
+
+            localStorage.setItem('cartProducts', JSON.stringify(cartProducts));
+
+            createCart();
+        }
+
+         createCart();
+
+         document.getElementById('emptyCart').addEventListener('click', function(){
+            localStorage.removeItem('cartProducts');
+            location.reload();
+         })
+
+         let addbtn = document.querySelectorAll('.add');
+         let minusbtn = document.querySelectorAll('.minus');
+         let values = document.querySelectorAll('.value');
+         let prices = document.querySelectorAll('.price');
+         let cardTotal = document.getElementById('cartTotal');
+         let subtotals = document.querySelectorAll('.subtotal');
+
+         let counts = Array(values.length).fill(1);
+
+         function updateCartTotal(){
+            let total = 0;
+            subtotals.forEach(subtotal => {
+               total += parseFloat(subtotal.textContent.replace('$',''));
+            });
+
+            cardTotal.textContent = '$' + total.toFixed(2);
+         }
+
+         function updateSubtotal(index){
+            const price = parseFloat(prices[index].textContent.replace('$',''));
+            const quantity = counts[index];
+            const subtotal = price * quantity;
+
+            subtotals[index].textContent = '$' + subtotal.toFixed(2);
+            updateCartTotal();
+         }
+
+         addbtn.forEach((btn, index) => {
+            btn.addEventListener('click', function(){
+
+                counts[index]++;
+                values[index].textContent = counts[index]; 
+                updateCartTotal(index);
+            });
+            
+         });
+
+         minusbtn.forEach((minusbtn, index) =>{
+            minusbtn.addEventListener('click', function(){
+                if(counts[index] > 1){
+                    counts[index]--;
+                    values[index].textContent = counts[index];
+                    updateSubtotal(index);
+                }
+            });
+            updateSubtotal(index);
+         });
+
+         subtotals.forEach((_, index) =>{
+            updateSubtotal(index);
+         })
+
+         document.getElementById('btn-checkout').addEventListener('click', function(){
+            let total = cardTotal.innerText;
+            window.location.href = `checkout.html?total=${total}`
+         });
+
+    </script>
+
+    </body>
+
+</html>

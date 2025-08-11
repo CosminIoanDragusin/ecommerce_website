@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <!-- Swipper Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- Nav Section-->
+    <nav>
+        <div class="nav_top">
+            <div class="nav_top_left nav_top_content">
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">English <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>Francai</span>
+                            </li>
+                            <li>
+                                <span>Spanish</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">USD <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>USD</span>
+                            </li>
+                            <li>
+                                <span>EUR</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Free Shipping On All Orders Oveer $100</p>
+            </div>
+            <ul class="nav_top_right nav_top_content">
+                <li>
+                    <i class="fa-solid fa-bolt"></i>
+                    <a href="#">Flash Sale</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_middel">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Mega<span>Mart</span></h2>
+                </a>
+            </div>
+
+            <div class="nav_middel_input_box">
+                <select>
+                    <option>All Categories</option>
+                    <option>Camera</option>
+                    <option>Accesories</option>
+                    <option>Camera & Lenses</option>
+                    <option>Drones</option>
+                    <option>Security Cameras</option>
+                    <option>Games</option>
+                </select>
+                <input type="text" placeholder="Search For Products">
+                <button class="btn">
+                    <a href="#">Search</a>
+                </button>
+            </div>
+            <div class="nav_middel_right">
+                <div class="nav_middel_right_content">
+                    <div class="nav_middel_right_icon">
+                        <i class="ri-customer-service-line"></i>
+                    </div>
+                    <div class="nav_middel_right_info">
+                        <span>Need Help?</span>
+                        <span>+09 9987 7934</span>
+                    </div>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./myaccount.html" class="nav_middel_right_icon">
+                        <i class="ri-user-3-line"></i>
+
+                        <div class="nav_middel_right_info">
+                            <span>Account</span>
+                            <span>Login</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./carts.html" class="nav_middel_right_icon">
+                        <i class="ri-shopping-cart-2-line"></i>
+                        <div class="nav_middel_right_info">
+                            <span>My</span>
+                            <span>Cart</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <i class="ri-menu-line" id="open_menu"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bottom">
+            <div class="nav_bottom_left">
+                <div class="categorys">
+                    <div class="categorys_text">
+                        <i class="ri-menu-line"></i>
+                        <span>Shop Categories</span>
+                    </div>
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <ul class="categorys_item_menu">
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>SmartPhone</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Laptop</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>Camera</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>HeadPhones</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>PCGaming</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tablet"></i>
+                            <span>Tablets</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tv"></i>
+                            <span>Television</span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <ul class="nav_bottom_menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./products.html">Laptop</a>
+                </li>
+                <li>
+                    <a href="./products.html">SmartPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">HeadPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">Camera</a>
+                </li>
+            </ul>
+            <a href="./wishlist.html">
+                <div class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="today_deals">
+                        <span>Today's Deal</span>
+                        <span>hot</span>
+                    </div>
+                </div>
+            </a>
+            <i class="ri-close-large-fill" id="close_menu"></i>
+        </div>
+    </nav>
+
+    <div class="page-section">
+        <h2>
+            <a href="index.html">Home /</a>
+
+            <p id="product_name_title">Product Details</p>
+        </h2>
+    </div>
+
+    <section class="product-details-wrapper">
+
+    </section>
+
+    <div class="footer">
+        <div class="footer-link">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Mega<span>Mart</span></h2>
+                </a>
+            </div>
+
+            <p>Find a location nearest you.</p>
+            <p>See <a href="#">Our Stores</a></p>
+            <p>SuportEmail@gmail.com</p>
+            <p><b>+4040404040404</b></p>
+            <div class="social">
+                <i class="ri-instragam-line"></i>
+                <i class="ri-facebook-line"></i>
+                <i class="ri-pinterest-line"></i>
+                <i class="ri-twitter-x-line"></i>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <h3>About Us</h3>
+
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">News & Blog</a></p>
+            <p><a href="#">Brands</a></p>
+            <p><a href="#">Press Center</a></p>
+            <p><a href="#">Advertising</a></p>
+            <p><a href="#">Investors</a></p>
+        </div>
+
+        <div class="footer-link">
+            <h3>Support</h3>
+
+            <p><a href="#">Suport Center</a></p>
+            <p><a href="#">Manage</a></p>
+            <p><a href="#">Service</a></p>
+            <p><a href="#">Hawl Away</a></p>
+            <p><a href="#">Security Center</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+
+        <div class="footer-link">
+            <h3>Order</h3>
+
+            <p><a href="#">Check Order</a></p>
+            <p><a href="#">Delivery & Pickup</a></p>
+            <p><a href="#">Returns</a></p>
+            <p><a href="#">Exchanges</a></p>
+            <p><a href="#">Developers</a></p>
+            <p><a href="#">Gift Cards</a></p>
+        </div>
+    </div>
+
+    <div class="tranding-tag">
+        <h3>Trending Tags:</h3>
+
+        <div class="tags">
+            <span>Accesories</span>
+            <span>Apple Iphone</span>
+            <span>Camera & Video</span>
+            <span>Cellphone</span>
+            <span>Desktop Computers</span>
+            <span>Electronic</span>
+            <span>Game</span>
+            <span>Gaming Headsets</span>
+            <span>IWatch</span>
+            <span>Kids' Electronic</span>
+            <span>Laptop</span>
+            <span>Mobile & Tablets</span>
+        </div>
+    </div>
+    
+        <p class="copyright">&copy; MegaMart. All Rights Reserved.</p>
+      </footer>
+
+
+    <!-- swiper slide cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <!-- Products Data-->
+    <script src="./Data.js"></script>
+    <!-- js script-->
+    <script src="script.js"></script>
+
+    <script>
+
+
+    function getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+                            }
+
+    const pId = getQueryParam('ProductId');
+    const pcategory = getQueryParam('ProductCategory');
+
+function DisplayDetails(id, category) {
+    var ProductCategory = Products.find(p => p.category == category); // Use function argument here
+
+    if (ProductCategory) {
+        var Product = ProductCategory.Products.find(p => p.ProductId == id);
+
+        if (!Product) {
+            console.error('Product not found');
+            return;
+        }
+
+        document.getElementById('product_name_title').innerHTML = `${ProductCategory.category} / ${Product.Name}`;
+
+        const container = document.querySelector('.product-details-wrapper');
+
+        // Inject the dynamic product HTML
+        container.innerHTML = `<div class="product-container">
+            <div class="product-img">
+                <img src="${Product.Image}" alt="${Product.Name}">
+            </div>
+            <div class="product-details">
+                <div class="product-title">
+                    <h2>${Product.Title}</h2>
+                    <h1>${Product.Name}</h1>
+                </div>
+                <div class="rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                    <span>(4.5)</span>
+                </div>
+                <div class="price">
+                    <p class="lined">${Product.Price}</p>
+                    <p class="red">${Product.LessPrice}</p>
+                    <p class="off">${Product.Off}</p>
+                </div>
+                <div class="btncon">
+                    <a href="./carts.html" class="addtocartbtn" onClick="passdatatoCart('${id}','${category}')">Cart</a>
+                    <a href="./wishlist.html" class="addtocartbtn addtowishbtn" onClick="passdatatoWish('${id}','${category}')">Add to Wishlist</a>
+                </div>
+                <div class="info">
+                    <p>Fast charging 18W, 50% in 30min USB Power Delivery 2.0nQi wireless charging</p>
+                </div>
+                <div class="delivery">
+                    <ul>
+                        <li>Estimated delivery time 14-30 days</li>
+                        <li>18 months warrantry at Genuine Warrantry Center</li>
+                        <li>Use coupon SS23 to get extra $23 off(only this product)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="product_detail_container">
+            <div class="product-detail-btn">
+                <button data-target="about-sec">Product Details</button>
+                <button data-target="additional-sec">Aditional Information</button>
+                <button data-target="reviews-sec">Reviews</button>
+                <button data-target="shipping-sec">Shipping % Return</button>
+            </div>
+
+            <div class="product-content-container">
+                <div class="product-detail" id="about-sec">
+                    <h1>About This Item</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Veniam sequi dignissimos cupiditate voluptas consequatur expedita unde nam,
+                        assumenda possimus quis, maxime consectetur, soluta consequuntur quae quia culpa iure sint nisi?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos, odio recusandae? Consequatur non quis voluptas laboriosam voluptate repellat in officiis!
+                        Ex a nulla repudiandae dolore corporis rerum totam quam possimus.
+                    </p>
+                    <p>
+                        <span>What It Does:</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora explicabo maiores
+                        dicta delectus quos inventore. Maxime quidem delectus dolorum laudantium fugit aliquid,
+                        mollitia totam magni, accusantium quaerat dolore, ratione iusto.
+                    </p>
+                    <p>
+                        <span>Dual Purpose:</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Suscipit quia autem inventore voluptatem asperiores neque libero,
+                        laborum explicabo sit necessitatibus ab, qui est commodi! Dolores quis autem explicabo
+                        corporis quo!
+                    </p>
+                    <p>
+                        <span>Who Its For:</span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Similique tenetur sapiente ex tempora temporibus nesciunt obcaecati laborum, ab
+                        doloremque accusantium cumque quis laboriosam, sed perferendis natus.
+                        Hic dolore illum voluptate!
+                    </p>
+                    <p>
+                        <span>How It Works:</span>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, libero nemo
+                        accusantium ipsa tempora sit molestiae obcaecati culpa numquam sequi beatae, blanditiis
+                        totam perferendis tempore harum veniam neque, vero ex!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur necessitatibus magni
+                        sunt eligendi ullam nisi inventore. Aliquid inventore, obcaecati nulla architecto, minus
+                        doloremque necessitatibus recusandae facere facilis nesciunt distinctio ullam!
+                    </p>
+                </div>
+
+                <div class="product-detail additional-detail" id="additional-sec">
+                    <p>Ram
+                        <span>
+                            ${Product.Specification.Ram}
+                        </span>
+                    </p>
+
+                    <p>harddrive <span>${Product.Specification.HardDrive}</span></p>
+
+                    <p>screensize <span>${Product.Specification.ScreenSize}</span></p>
+                </div>
+
+                <div class="product-detail reviews" id="reviews-sec">
+                    <div class="reviews-contact">
+                        <h3>First Review Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                        <div class="reviews-contact-card-container">
+                            <div class="reviews-contact">
+                                <h1><span>5.00</span></h1>
+                            </div>
+                            <ul class="review-star">
+                                <li>
+                                    <p>5</p>
+                                    <i class="ri-star-fill"></i>
+                                    <div class="star-line"></div>
+                                    <p>(0)</p>
+                                </li>
+
+                                <li>
+                                    <p>4</p>
+                                    <i class="ri-star-fill"></i>
+                                    <div class="star-line"></div>
+                                    <p>(0)</p>
+                                </li>
+
+                                <li>
+                                    <p>3</p>
+                                    <i class="ri-star-fill"></i>
+                                    <div class="star-line"></div>
+                                    <p>(0)</p>
+                                </li>
+
+                                <li>
+                                    <p>2</p>
+                                    <i class="ri-star-fill"></i>
+                                    <div class="star-line"></div>
+                                    <p>(0)</p>
+                                </li>
+
+                                <li>
+                                    <p>1</p>
+                                    <i class="ri-star-fill"></i>
+                                    <div class="star-line"></div>
+                                    <p>(0)</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="client-rev">
+                            <div class="client-rev-card">
+                                <div class="client-rev-card-img">
+                                    <img src="Image/avatar-3.jpg" alt="">
+                                </div>
+                                <div class="client-rev-card-info">
+                                    <h5>John Doe</h5>
+                                    <p>Verified Buyer</p>
+                                    <p>Was a good package that arrived fast thanks for your services.</p>
+
+                                    <div class="rev-card-star">
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                        <i class="ri-star-fill"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rev-form">
+                        <h3>Add a Review</h3>
+                        <form action="">
+                            <p>Your email address will not be published. Required fields are marked*</p>
+                            <p>Your rating</p>
+
+                            <div class="star-raing">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+
+                            <input type="text" placeholder="Review Title">
+                            <input type="text" placeholder="Your Review">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+
+                            <span>
+                                <input type="checkbox">
+                                <p>Save my email, name, and website in this browser for the next time I comment</p>
+                            </span>
+                        </form>
+                        <button>Submit</button>
+                    </div>
+                </div>
+
+                <div class="product-detail shipping" id="shipping-sec">
+                    <h1>Shipping Policy</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero deleniti quos
+                        vitae dignissimos commodi adipisci corporis autem. Libero est praesentium mollitia animi
+                        sint, doloremque nesciunt iste dolore commodi, exercitationem quia.
+                    </p>
+                    <p>We strive to be reliable and good bla bla. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Libero deleniti quos
+                        vitae dignissimos commodi adipisci corporis autem. Libero est praesentium mollitia animi
+                        sint, doloremque nesciunt iste dolore commodi, exercitationem quia.
+                        About our shipping process:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <p>
+                                Dispatch: Within 24 Hours
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Free Shipping across all products on a mininum purchase of $99.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                International delivery time 5 to 7 business days
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Cash on delivery might be available
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Easy 30 days returns and exchanges
+                            </p>
+                        </li>
+                    </ul>
+                    <p>
+                        Please note the delivery time are estimates and may very bla bla and we may have delays bla bla
+                    </p>
+
+                    <h1>Returns Policy</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui repudiandae odio odit expedita
+                        asperiores, excepturi sed at necessitatibus optio assumenda recusandae consequatur nulla.
+                        Consequatur mollitia officia nam sunt. Voluptate.</p>
+                    <ol>
+                        <li>
+                            <p>Returned item must be not damaged or broken and in initial condition</p>
+                        </li>
+                        <li>
+                            <p>Original tags, labels, and packaging must be intact bla bla bla bla</p>
+                        </li>
+                        <li>
+                            <p>Proof of purchase, such as your orders confirmation or receipt, is required for all</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>`;
+
+        // ✅ Now attach the tab logic AFTER the content is added to DOM
+        initTabs();
+    } else {
+        console.error('Category not found');
+    }
+}
+
+// Run the function
+DisplayDetails(pId, pcategory);
+
+let cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
+let WishProducts = JSON.parse(localStorage.getItem('WishProducts')) || [];
+
+function passdatatoCart(id, category){
+    const product = {
+        ProductId: id,
+        ProductCategory: category,
+    };
+
+    cartProducts.push(product);
+
+    localStorage.setItem('cartProducts', JSON.stringify(cartProducts));
+
+    alert("Product added to cart!");
+
+}
+
+function passdatatoWish(id, category){
+    const product = {
+        ProductId: id,
+        ProductCategory: category,
+    };
+
+    WishProducts.push(product);
+
+    localStorage.setItem('WishProducts', JSON.stringify(WishProducts));
+
+    alert("Product added to Wish!");
+    console.log(WishProducts)
+}
+
+// ✅ Setup tab switching AFTER rendering product details
+function initTabs() {
+    const Activities_box = document.querySelectorAll('.product-detail-btn button');
+    const Activities_container = document.querySelectorAll('.product-detail');
+
+    // Hide all sections
+    Activities_container.forEach((container) => {
+        container.style.display = 'none';
+    });
+
+    // Show the first section
+    if (Activities_container[0]) {
+        Activities_container[0].style.display = 'flex';
+    }
+
+    // Add click event to each tab button
+    Activities_box.forEach((btn, btnindex) => {
+        btn.addEventListener('click', () => {
+            Activities_container.forEach((container) => {
+                container.style.display = 'none';
+            });
+
+            Activities_container[btnindex].style.display = 'flex';
+        });
+    });
+}
+
+
+
+</script>
+</body>
+
+</html>

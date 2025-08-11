@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
+    <!-- Swipper Slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+</head>
+<body>
+     <!-- Nav Section-->
+    <nav>
+        <div class="nav_top">
+            <div class="nav_top_left nav_top_content">
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">English <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>Francai</span>
+                            </li>
+                            <li>
+                                <span>Spanish</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="main_menu">
+                    <li>
+                        <span class="main_menu_text">USD <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="sub_menu">
+                            <li>
+                                <span>USD</span>
+                            </li>
+                            <li>
+                                <span>EUR</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>Free Shipping On All Orders Oveer $100</p>
+            </div>
+            <ul class="nav_top_right nav_top_content">
+                <li>
+                    <i class="fa-solid fa-bolt"></i>
+                    <a href="#">Flash Sale</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_middel">
+            <div class="logo">
+                <a href="index.html">
+                    <h2>Mega<span>Mart</span></h2>
+                </a>
+            </div>
+
+            <div class="nav_middel_input_box">
+                <select>
+                    <option>All Categories</option>
+                    <option>Camera</option>
+                    <option>Accesories</option>
+                    <option>Camera & Lenses</option>
+                    <option>Drones</option>
+                    <option>Security Cameras</option>
+                    <option>Games</option>
+                </select>
+                <input type="text" placeholder="Search For Products">
+                <button class="btn">
+                    <a href="#">Search</a>
+                </button>
+            </div>
+            <div class="nav_middel_right">
+                <div class="nav_middel_right_content">
+                    <div class="nav_middel_right_icon">
+                        <i class="ri-customer-service-line"></i>
+                    </div>
+                    <div class="nav_middel_right_info">
+                        <span>Need Help?</span>
+                        <span>+09 9987 7934</span>
+                    </div>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./myaccount.html" class="nav_middel_right_icon">
+                        <i class="ri-user-3-line"></i>
+
+                        <div class="nav_middel_right_info">
+                            <span>Account</span>
+                            <span>Login</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <a href="./carts.html" class="nav_middel_right_icon">
+                        <i class="ri-shopping-cart-2-line"></i>
+                        <div class="nav_middel_right_info">
+                            <span>My</span>
+                            <span>Cart</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav_middel_right_content">
+                    <i class="ri-menu-line" id="open_menu"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav_bottom">
+            <div class="nav_bottom_left">
+                <div class="categorys">
+                    <div class="categorys_text">
+                        <i class="ri-menu-line"></i>
+                        <span>Shop Categories</span>
+                    </div>
+                    <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <ul class="categorys_item_menu">
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <span>SmartPhone</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Laptop</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i>
+                            <span>Camera</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <span>HeadPhones</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>PCGaming</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tablet"></i>
+                            <span>Tablets</span>
+                        </li>
+                    </a>
+                    <a href="./products.html">
+                        <li>
+                            <i class="fa-solid fa-tv"></i>
+                            <span>Television</span>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+
+            <ul class="nav_bottom_menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./products.html">Laptop</a>
+                </li>
+                <li>
+                    <a href="./products.html">SmartPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">HeadPhones</a>
+                </li>
+                <li>
+                    <a href="./products.html">Camera</a>
+                </li>
+            </ul>
+            <a href="./wishlist.html">
+                <div class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="today_deals">
+                        <span>Today's Deal</span>
+                        <span>hot</span>
+                    </div>
+                </div>
+            </a>
+            <i class="ri-close-large-fill" id="close_menu"></i>
+        </div>
+    </nav>
+
+    <div class="page-section">
+        <h2>
+            <a href="index.html">Home /</a>
+
+            <p id="product_name_title">Wishlist</p>
+        </h2>
+    </div>
+
+    <section class="shop-wishlist-container">
+        <div class="wl-top">
+            <h2>Wishlist</h2>
+        </div>
+
+        <div class="wishlist-wrapper">
+            <div class="wishlist-main">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="product-name">Product Name</th>
+                            <th class="product-price">Unit Price</th>
+                            <th class="product-quantity">Stock Status</th>
+                            <th class="product-subtotal"></th>
+                            <th class="product-remove"></th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="wishItems">
+
+                    </tbody>
+                </table>
+
+                <div class="cart-option-btn">
+                    <button id="emptyList">Empty List</button>
+                </div>
+            </div>
+            <div class="wishlist-share">
+                <h2>Share on:</h2>
+                <div class="wishlist-share-icons">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-mail-fill"></i>
+                    <i class="ri-whatsapp-fill"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="news-letter-wrapper">
+            <div class="news-letter">
+                <h3>Sign Up for newsletter & Get 20% off</h3>
+
+                <div>
+                    <input type="text" placeholder="Enter Your Email address">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-wrapper">
+            <div class="features">
+                <i class="ri-truck-line"></i>
+                <p><strong>FREE Delivery</strong> Free shipping on all order</p>
+            </div>
+
+            <div class="features">
+                <i class="ri-money-dollar-circle-line"></i>
+                <p><strong>Returns</strong> Back Gurantee under 7 days</p>
+            </div>
+
+            <div class="features">
+                <i class="ri-customer-service-line"></i>
+                <p><strong>Suport 24/7</strong> Suport Online 24 hours a day</p>
+            </div>
+
+            <div class="features">
+                <i class="ri-customer-service-line"></i>
+                <p><strong>Payments</strong> 100% Payment Security</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-link">
+                <div class="logo">
+                    <a href="index.html">
+                        <h2>Mega<span>Mart</span></h2>
+                    </a>
+                </div>
+
+                <p>Find a location nearest you.</p>
+                <p>See <a href="#">Our Stores</a></p>
+                <p>SuportEmail@gmail.com</p>
+                <p><b>+4040404040404</b></p>
+                <div class="social">
+                    <i class="ri-instragam-line"></i>
+                    <i class="ri-facebook-line"></i>
+                    <i class="ri-pinterest-line"></i>
+                    <i class="ri-twitter-x-line"></i>
+                </div>
+            </div>
+
+            <div class="footer-link">
+                <h3>About Us</h3>
+
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">News & Blog</a></p>
+                <p><a href="#">Brands</a></p>
+                <p><a href="#">Press Center</a></p>
+                <p><a href="#">Advertising</a></p>
+                <p><a href="#">Investors</a></p>
+            </div>
+
+            <div class="footer-link">
+                <h3>Support</h3>
+
+                <p><a href="#">Suport Center</a></p>
+                <p><a href="#">Manage</a></p>
+                <p><a href="#">Service</a></p>
+                <p><a href="#">Hawl Away</a></p>
+                <p><a href="#">Security Center</a></p>
+                <p><a href="#">Contact</a></p>
+            </div>
+
+            <div class="footer-link">
+                <h3>Order</h3>
+
+                <p><a href="#">Check Order</a></p>
+                <p><a href="#">Delivery & Pickup</a></p>
+                <p><a href="#">Returns</a></p>
+                <p><a href="#">Exchanges</a></p>
+                <p><a href="#">Developers</a></p>
+                <p><a href="#">Gift Cards</a></p>
+            </div>  
+        </div>
+
+        <div class="tranding-tag">
+                <h3>Trending Tags:</h3>
+
+                <div class="tags">
+                    <span>Accesories</span>
+                    <span>Apple Iphone</span>
+                    <span>Camera & Video</span>
+                    <span>Cellphone</span>
+                    <span>Desktop Computers</span>
+                    <span>Electronic</span>
+                    <span>Game</span>
+                    <span>Gaming Headsets</span>
+                    <span>IWatch</span>
+                    <span>Kids' Electronic</span>
+                    <span>Laptop</span>
+                    <span>Mobile & Tablets</span>
+                </div>
+            </div>
+
+        <p class="copyright">&copy; MegaMart. All Rights Reserved.</p>
+      </footer>
+
+    <!-- swiper slide cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <!-- Products Data-->
+    <script src="./Data.js"></script>
+    <!-- js script-->
+    <script src="script.js"></script>
+    <script>
+        let wishlistProducts = JSON.parse(localStorage.getItem('WishProducts')) || [];
+        const container = document.getElementById('wishItems');
+
+        function CreateWishList(){
+            wishlistProducts.forEach(Product => {
+                const id = Product.ProductId;
+                const category = Product.ProductCategory;
+
+                const productCategorys = Products.find(p=> p.category == category);
+
+                const productfound = productCategorys.Products.find(p => p.ProductId == id);
+
+                const tr = document.createElement('tr');
+
+                const td1 = document.createElement('td');
+                const wishlistProductDiv = document.createElement('div');
+                wishlistProductDiv.classList.add('wishlist-product');
+
+                const wishlistimgDiv = document.createElement('div');
+                wishlistimgDiv.classList.add('wishlist-img');
+                const img = document.createElement('img');
+                img.src = productfound.Image;
+                img.alt = productfound.Name;
+                wishlistimgDiv.appendChild(img);
+
+                const wishlistInfoDiv = document.createElement('div');
+                wishlistInfoDiv.classList.add('wishlist-info');
+                const h2 = document.createElement('h2');
+                h2.textContent = productfound.Name;
+                wishlistInfoDiv.appendChild(h2);
+
+                wishlistProductDiv.appendChild(wishlistimgDiv);
+                wishlistProductDiv.appendChild(wishlistInfoDiv);
+                td1.appendChild(wishlistProductDiv);
+
+                const td2 = document.createElement('td');
+                td2.textContent = productfound.Price;
+
+                const td3 = document.createElement('td');
+                const stockspan = document.createElement('span');
+                stockspan.innerHTML = `<i class="ri-check-line"></i> Add`
+                td3.appendChild(stockspan);
+
+                const td4 = document.createElement('td');
+                const addtocartButton = document.createElement('button');
+
+                const td5 = document.createElement('td');
+                const removeIcon = document.createElement('i');
+                removeIcon.classList.add('ri-close-large-fill');
+
+                removeIcon.addEventListener('click', function () {
+                const index = wishlistProducts.findIndex(p => p.ProductId === id);
+                    if (index !== -1) {
+                        wishlistProducts.splice(index, 1); // remove the item
+                        localStorage.setItem('WishProducts', JSON.stringify(wishlistProducts));
+                        location.reload();
+                        }
+                    });
+
+                td5.appendChild(removeIcon);
+
+                tr.appendChild(td1);
+                tr.appendChild(td2);
+                tr.appendChild(td3);
+                tr.appendChild(td4);
+                tr.appendChild(td5);
+
+                container.appendChild(tr);
+            })
+        }
+
+        CreateWishList();
+
+        function removeItemFromCart(index){
+            localStorage.setItem('WishProducts', JSON.stringify(wishlistProducts));
+            location.reload();
+            
+            createCart();
+        }
+
+        document.getElementById('emptyList').addEventListener('click', function(){
+            localStorage.removeItem('WishProducts');
+            location.reload();
+        })
+    </script>
+</body>
+</html>
